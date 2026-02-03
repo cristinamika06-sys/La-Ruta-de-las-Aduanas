@@ -1,0 +1,128 @@
+#pagina1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(216, 161, 109);
+}
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(65, 27, 10);
+    display: flex;
+}
+.menu > li{
+position: relative;
+}
+.menu a{
+    display: block;
+    padding: 15px 20px;
+    color: aliceblue; 
+    text-decoration:none;
+}
+.menu a:hover {
+    background-color: rgb(37, 21, 1);
+}
+.submenu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color:rgb(134, 68, 29);
+    display: none;
+    min-width: 100%;
+}
+.submenu li a{
+    padding: 12px;
+}
+.menu li:hover .submenu{
+    display: block;
+}
+#titulo {
+    text-align: center;
+    
+    
+}
+h1{
+    font-size: 400%;
+}
+#img{
+transition: 2s;
+}
+#img:hover {
+    transform: rotateY(360deg);
+}
+
+#banner{
+    height: 30%;
+    width:40%;
+}
+#primer{
+    font-size: 20px;
+    text-align: justify;
+    margin: 10px;
+    
+}
+#quienes {
+    font-size: 30px;
+    margin: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#pagina2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+#foda {
+    font-family: 'Times New Roman', Times, serif;
+}
+#mision{
+    font-size: 18px;
+}
+#COMERCIO{
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#chamba{
+     font-size: 25px;
+    text-align: justify;
+    margin: 10px;
+
+}
+#SERVICIO{
+    font-size: 45px ;
+    transition: 3s;
+}
+#SERVICIO:hover{
+    transform: rotateY(360deg);
+}
+#cursoimg{
+    transition: 3s;
+}
+#cursoimg:hover{
+ transform: rotateY(360deg);
+}
+#docente1 {
+    transition: 3s;
+}
+#docente1:hover{
+    transform: scale(1.2);
+}
+#TALLER {
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 3s;
+    font-size: 45px;
+}
+#TALLER:hover{
+    animation:rebote 0.6s ease-in-out infinite alternate;
+}
+@keyframes rebote {
+    0% { transform: translateX(0); }
+  50%  { transform: translateX(-40px); }
+  100% { transform: translateX(0); }
+}
+#lista{
+    font-size: 25px;
+}
